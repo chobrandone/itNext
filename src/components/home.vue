@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import Header from '../../components/header/header.vue'
+import Header from '../../components/head/head.vue'
 export default {
   name: 'Home',
   props: {
     msg: String
   },
     components: {
-    Header
+    // Header
   }
 }
 
